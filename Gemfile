@@ -1,5 +1,5 @@
-# frozen_string_literal: true
-
-source 'http://rubygems.org'
-
-gemspec
+source "https://rubygems.org"
+gem "jekyll"
+group :test do
+  gem "html-proofer"
+end
