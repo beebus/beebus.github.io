@@ -2,7 +2,7 @@
 
 # This is an example, declare the theme gem you want to use here
 source "https://rubygems.org"
-gem "jekyll-theme-minimal"
+gem 'jekyll-theme-minimal', '~> 0.1.1'
 group :test do
-  gem "html-proofer"
+  gem 'html-proofer', '~> 3.11', '>= 3.11.1'
 end
