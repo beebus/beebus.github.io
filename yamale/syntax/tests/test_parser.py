@@ -1,3 +1,5 @@
+"""Pytest is used to see if any of the data we received might be mispelled."""
+
 from pytest import raises
 
 from .. import parser as par
