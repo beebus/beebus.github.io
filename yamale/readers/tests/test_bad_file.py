@@ -1,3 +1,5 @@
+"""Parses files and uses pytest to determine if they are 'bad' files."""
+
 from pytest import raises
 from .. import parse_file
 
