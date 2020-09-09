@@ -1,3 +1,4 @@
+"""Parses YAML files, uses yamale_read and yamale.tests to determine if they are 'bad', poorly formed YAML files."""
 from .. import yaml_reader
 from yamale.tests import get_fixture
 
