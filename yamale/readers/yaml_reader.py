@@ -1,3 +1,4 @@
+"""This python files attempts to parse a YAML file and display it to the user in a better format."""
 from __future__ import absolute_import
 import yaml
 import pprint

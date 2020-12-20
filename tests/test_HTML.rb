@@ -1,5 +1,5 @@
 require 'test/unit'
-require "yaml"
+require 'yaml'
 require 'html-proofer'
 
 class TestHTMLValidation < Test::Unit::TestCase
